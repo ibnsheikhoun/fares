@@ -1,0 +1,13 @@
+/* ---------------------------->>>   Color  <<<-----------------------------*/
+:root{
+    /* -------------------->>> اللون <<<---------------------- */
+    --color_main: #03a9f4;
+    --color_text: #dadada;
+    --color_a: #dadada;
+    --color_light: #03a9f4;
+
+
+    /* -------------------->>> الخلفية <<<-------------------- */
+    --background_header: linear-gradient(180deg, #303030, #000);
+    --background_footer: linear-gradient(180deg, #303030, #000);
+}
