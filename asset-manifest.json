@@ -1,0 +1,31 @@
+{
+  "files": {
+    "main.css": "/fares/static/css/main.e4956cdc.css",
+    "main.js": "/fares/static/js/main.3ee9d31c.js",
+    "static/js/453.5dd41ea2.chunk.js": "/fares/static/js/453.5dd41ea2.chunk.js",
+    "static/media/fa-solid-900.ttf": "/fares/static/media/fa-solid-900.07ed6d5fa32c1d54af0f.ttf",
+    "static/media/background_4_412.jpg": "/fares/static/media/background_4_412.b2fedc1aa91995863044.jpg",
+    "static/media/fa-brands-400.ttf": "/fares/static/media/fa-brands-400.0ff70dcbf135d859ebf3.ttf",
+    "static/media/background_1_PC.jpg": "/fares/static/media/background_1_PC.06062232b51aa2aea613.jpg",
+    "static/media/background_4_PC.jpg": "/fares/static/media/background_4_PC.d5e5c6449fbed85e1433.jpg",
+    "static/media/background_1_412.jpg": "/fares/static/media/background_1_412.033a9528b9b6df1a05aa.jpg",
+    "static/media/background_3_412.jpg": "/fares/static/media/background_3_412.4c067a6af29acd829b31.jpg",
+    "static/media/fa-solid-900.woff2": "/fares/static/media/fa-solid-900.93f719f4d62bfa3e748c.woff2",
+    "static/media/background_3_PC.jpg": "/fares/static/media/background_3_PC.f1a20f29d4d68fb91852.jpg",
+    "static/media/background_2_412.jpg": "/fares/static/media/background_2_412.42a1cd629da1351e1c73.jpg",
+    "static/media/fa-brands-400.woff2": "/fares/static/media/fa-brands-400.bb8d5a145e22822103fb.woff2",
+    "static/media/background_2_PC.jpg": "/fares/static/media/background_2_PC.61b8c1dbae617b5ce0f6.jpg",
+    "static/media/fa-regular-400.ttf": "/fares/static/media/fa-regular-400.17a6e1aebccdbaa39e78.ttf",
+    "static/media/fa-regular-400.woff2": "/fares/static/media/fa-regular-400.bc3722686635b5f86132.woff2",
+    "static/media/fa-v4compatibility.ttf": "/fares/static/media/fa-v4compatibility.0f6cb412603527bda691.ttf",
+    "static/media/fa-v4compatibility.woff2": "/fares/static/media/fa-v4compatibility.6cfec8414be20e2c3426.woff2",
+    "index.html": "/fares/index.html",
+    "main.e4956cdc.css.map": "/fares/static/css/main.e4956cdc.css.map",
+    "main.3ee9d31c.js.map": "/fares/static/js/main.3ee9d31c.js.map",
+    "453.5dd41ea2.chunk.js.map": "/fares/static/js/453.5dd41ea2.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.e4956cdc.css",
+    "static/js/main.3ee9d31c.js"
+  ]
+}
