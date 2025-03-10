@@ -1,0 +1,9 @@
+.section_about .container
+{
+    gap: 1rem;
+
+
+    p{
+        text-align: start;
+    }
+}

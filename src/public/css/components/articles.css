@@ -1,0 +1,159 @@
+/* ==============================================>>> فورم <<<===================================== */
+/* -------------------))) GROUPS (((------------------- */
+/* 
+    Form
+*/
+form
+{
+    input, textarea
+    {
+        color: black;
+    }
+    .input_button
+    {
+        background: var(--background_header);
+    }
+}
+
+
+
+
+
+
+
+
+
+/* ==============================================>>> كروت <<<===================================== */
+/* -------------------))) GROUPS (((------------------- */
+/* 
+    Card
+*/
+.cards
+{
+    gap: 3rem;
+
+
+
+    .card
+    {
+        background: var(--background_header);
+        box-shadow: var(--box_shadow_a);
+        border-radius: 0.2rem;
+
+        position: relative;
+
+        overflow: hidden;
+        z-index: var(--z_index_first);
+
+
+        .card_icon
+        {
+            font-size: 3rem;
+        }
+    }
+}
+.card::before
+{
+    content: "";
+    background: var(--color_primary);
+
+    width: 20%;
+    height: 300%;
+
+    position: absolute;
+    z-index: var(--z_index_before);
+
+
+    animation: cardborder 6s linear infinite;
+}
+.card::after
+{
+    content: "";
+    background: var(--background_header);
+
+    position: absolute;
+    z-index: var(--z_index_before);
+    inset: 0.1rem;
+}
+
+@keyframes cardborder
+{
+    0%
+    {
+        transform: rotate(0deg);
+    }
+    100%
+    {
+        transform: rotate(360deg);
+    }
+}
+.card:hover::before {
+    animation-play-state: paused;
+}
+
+    
+
+
+
+
+
+
+
+
+
+/* ==============================================>>> باكيتات <<<===================================== */
+/* -------------------))) GROUPS (((------------------- */
+/* 
+    Backet
+*/
+.backets
+{
+    grid-template-columns: repeat(auto-fill, minmax(18rem, 1fr));
+    gap: 4rem;
+
+
+
+    .backet
+    {
+        gap: 2rem;
+
+
+
+        i
+        {
+            font-size: 4rem;
+        }
+    }
+}
+
+
+
+
+
+
+
+
+/* ==============================================>>> خلفية عليها كلام <<<===================================== */
+/* -------------------))) GROUPS (((------------------- */
+/* 
+    Social
+*/
+.social
+{
+    left: var(--padding_container);
+    bottom: 5vh;
+
+
+
+    a i, a *
+    {
+        font-size: 2rem;
+    }
+}
+.social::after
+{
+    content: "";
+    background: var(--color_a);
+    width: 0.3rem;
+    height: 5rem;
+}

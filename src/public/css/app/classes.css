@@ -1,0 +1,37 @@
+/* ==============================================>>> إضافة و إزالة <<<==================================== */
+/* -------------------))) DETAILS (((------------------- */
+.details_click
+{
+    color: var(--color_light);
+    background: var(--color_a);
+
+
+
+    i
+    {
+        color: var(--color_light);
+        transform: rotate(45deg);
+    }
+}
+
+
+
+
+
+
+
+
+
+/* -------------------))) NAV (((------------------- */
+.active
+{
+    color: var(--color_light) !important;
+    background: var(--color_a) !important;
+    border-radius: 50% !important;
+
+
+    *
+    {
+        color: var(--color_light) !important;
+    }
+}

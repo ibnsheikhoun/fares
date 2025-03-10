@@ -1,0 +1,28 @@
+footer .container
+{
+    align-items: start;
+    gap: 2rem;
+
+
+
+
+    .contact
+    {
+        gap: 1rem;
+
+
+        
+        a .i
+        {
+            border: var(--border_text);
+            border-radius: 50%;
+    
+            width: 2.2rem;
+            height: 2.2rem;
+        }
+    }
+    .copyright
+    {
+        font-size: 1.2rem;
+    }
+}

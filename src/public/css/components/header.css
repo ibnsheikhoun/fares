@@ -1,0 +1,56 @@
+header
+{
+    background: transparent !important;
+
+    width: 20rem !important;
+
+    position: fixed !important;
+    bottom: 5vh;
+
+    z-index: var(--z_index_header);
+
+    @media (max-width: 768px) {
+        width: var(--width_container) !important;
+        padding: 0.3rem var(--padding_container) !important;
+    }
+
+
+
+    .container
+    {
+        width: 100% !important;
+        padding: 0 !important;
+
+
+
+        nav
+        {
+            background: var(--color_light);
+            border: var(--border_a);
+            border-radius: 2rem;
+        
+            width: 100%;
+            padding: 0.3rem 0;
+
+            justify-content: space-around;
+    
+    
+    
+            a
+            {
+                color: var(--color_a);
+        
+                font-size: 2rem;
+    
+                width: 3rem;
+                height: 3rem;
+            }
+            a:hover
+            {
+                color: var(--color_light);
+                background: var(--color_a);
+                border-radius: 50%;
+            }
+        }
+    }
+}

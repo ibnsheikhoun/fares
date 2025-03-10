@@ -1,0 +1,28 @@
+.section_background_text{
+    height: calc(100vh - var(--padding_section) - var(--padding_section));
+    position: relative;
+
+
+
+    /* a
+    {
+        *, .i
+        {
+            color: var(--color_a) !important;
+    
+            font-size: 2rem;
+        }
+        .i:hover
+        {
+            color: rgb(255, 35, 35);
+        }
+    } */
+}
+.section_background_text .info:first-child{
+    position: absolute;
+    top: 25%
+}
+.section_background_text .info .info{
+    flex-direction: row;
+    gap: 3rem;
+}
